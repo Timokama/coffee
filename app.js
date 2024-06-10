@@ -31,4 +31,5 @@ app.use(login)
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', function () {
     console.log(`Servert is running on port http://localhost:${PORT}`);
+    console.log(`Servert is running on port http://192.168.57.53:${PORT}`);
 });
